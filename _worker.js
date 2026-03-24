@@ -36,9 +36,8 @@ const proxyIpAddrs = {EU: 'ProxyIP.DE.CMLiussss.net', AS: 'ProxyIP.SG.CMLiussss.
 const finallyProxyHost = 'ProxyIP.CMLiussss.net';//兜底proxyip
 // 订阅和面板使用的优选ip地址，可支持ip:port#name格式
 const ipListAll = [
-    '154.17.230.176:1644#🇺🇸 美国¹', '69.63.215.86:23456#🇺🇸 美国²', 'wto.org', 'animal.nuaa.tech', 'win.cloudflare.182682.xyz', 'www.shopify.com'
+    '154.17.230.176:1644#🇺🇸 美国¹', '69.63.215.86:23456#🇺🇸 美国²', 'wto.org', 'animal.nuaa.tech', 'win.cloudflare.182682.xyz#wetest.vip维护', 'www.shopify.com#Shopify官方'
 ];
-
 const coloRegions = {
     JP: new Set(['FUK', 'ICN', 'KIX', 'NRT', 'OKA']),
     EU: new Set([
